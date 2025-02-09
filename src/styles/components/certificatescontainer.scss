@@ -1,0 +1,22 @@
+@use "../variables";
+
+.certificate-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.certificate-list li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.credential {
+    text-decoration: none;
+    color: variables.$text-color-secondary;
+
+    &:hover {
+        color: #3b6b7e;
+        
+    }
+}
