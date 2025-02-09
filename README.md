@@ -7,6 +7,7 @@ Este é um currículo digital interativo que apresenta informações profissiona
 - **Barra lateral**: Contém a foto, cargo, redes sociais e informações de contato.
 - **Seção "Sobre"**: Uma breve descrição sobre minha formação e pretensões.
 - **Seção "Tecnologias"**: Exibe as tecnologias que utilizo, com descrições concisas de cada uma.
+- **Seção "Certificações"**: Apresenta as certificações que adquiri ao longo da minha jornada, com links para visualização de cada uma.
 - **Seção "Projetos"**: Convido a acessar meus repositórios e conferir meus projetos no GitHub.
 
 ## Tecnologias Utilizadas
