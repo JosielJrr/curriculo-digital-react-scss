@@ -10,7 +10,8 @@ import {
     SiTailwindcss,
     SiBootstrap,
     SiFigma,
-    SiGit
+    SiGit,
+    SiMysql
 } from "react-icons/si";
 
 import '../styles/components/technologiescontainer.scss';
@@ -20,15 +21,33 @@ export const TechnologiesContainer = () => {
     const technologies = [
         {
             id: "html",
-            name: "HTML5",
+            name: "HTML",
             icon: <SiHtml5 />,
             description: "Linguagem de marcação para estruturação de conteúdo web."
         },
         {
             id: "css",
-            name: "CSS3",
+            name: "CSS",
             icon: <SiCss3 />,
             description: "Linguagem de estilização para definir o visual de páginas web."
+        },
+        {
+            id: "sass",
+            name: "SASS",
+            icon: <SiSass />,
+            description: "Pré-processador CSS que permite o uso de variáveis, aninhamento e mais."
+        },
+        {
+            id: "tailwind",
+            name: "Tailwind CSS",
+            icon: <SiTailwindcss />,
+            description: "Framework CSS utilitário para criar designs personalizados rapidamente."
+        },
+        {
+            id: "bootstrap",
+            name: "Bootstrap",
+            icon: <SiBootstrap />,
+            description: "Framework CSS para criar interfaces responsivas e componentes prontos para uso."
         },
         {
             id: "js",
@@ -61,24 +80,6 @@ export const TechnologiesContainer = () => {
             description: "Framework JavaScript para construção de interfaces de usuário dinâmicas."
         },
         {
-            id: "sass",
-            name: "SASS",
-            icon: <SiSass />,
-            description: "Pré-processador CSS que permite o uso de variáveis, aninhamento e mais."
-        },
-        {
-            id: "tailwind",
-            name: "Tailwind.css",
-            icon: <SiTailwindcss />,
-            description: "Framework CSS utilitário para criar designs personalizados rapidamente."
-        },
-        {
-            id: "bootstrap",
-            name: "Bootstrap",
-            icon: <SiBootstrap />,
-            description: "Framework CSS para criar interfaces responsivas e componentes prontos para uso."
-        },
-        {
             id: "figma",
             name: "Figma",
             icon: <SiFigma />,
@@ -88,8 +89,14 @@ export const TechnologiesContainer = () => {
             id: "git",
             name: "Git",
             icon: <SiGit />,
-            description: "Sistema de controle de versão para gerenciamento e colaboração em código."
+            description: "Sistema de controle de versão distribuído para rastrear mudanças no código e facilitar a colaboração."
         },
+        {
+            id: "mysql",
+            name: "MySQL",
+            icon: <SiMysql />,
+            description: "Sistema de gerenciamento de banco de dados relacional utilizado para armazenar e gerenciar dados."
+        }
     ];
 
     return (
