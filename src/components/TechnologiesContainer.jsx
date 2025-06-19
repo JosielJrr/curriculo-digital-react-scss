@@ -23,37 +23,37 @@ export const TechnologiesContainer = () => {
             id: "html",
             name: "HTML",
             icon: <SiHtml5 />,
-            description: "Linguagem de marcação para estruturação de conteúdo web."
+            description: "Linguagem de marcação usada para estruturar o conteúdo da web."
         },
         {
             id: "css",
             name: "CSS",
             icon: <SiCss3 />,
-            description: "Linguagem de estilização para definir o visual de páginas web."
+            description: "Linguagem de estilo usada para definir o visual de páginas web."
         },
         {
             id: "sass",
             name: "SASS",
             icon: <SiSass />,
-            description: "Pré-processador CSS que permite o uso de variáveis, aninhamento e mais."
+            description: "Pré-processador CSS que oferece recursos como mixins, funções e aninhamento."
         },
         {
             id: "tailwind",
             name: "Tailwind CSS",
             icon: <SiTailwindcss />,
-            description: "Framework CSS utilitário para criar designs personalizados rapidamente."
+            description: "Framework CSS utilitário para criar interfaces personalizadas de forma rápida."
         },
         {
             id: "bootstrap",
             name: "Bootstrap",
             icon: <SiBootstrap />,
-            description: "Framework CSS para criar interfaces responsivas e componentes prontos para uso."
+            description: "Framework CSS com componentes prontos para criar interfaces responsivas."
         },
         {
             id: "js",
             name: "JavaScript",
             icon: <SiJavascript />,
-            description: "Linguagem de programação para criar interatividade em páginas web."
+            description: "Linguagem de programação usada para adicionar interatividade às páginas web."
         },
         {
             id: "ts",
@@ -65,37 +65,37 @@ export const TechnologiesContainer = () => {
             id: "react",
             name: "React",
             icon: <SiReact />,
-            description: "Biblioteca JavaScript para construção de interfaces de usuário interativas."
+            description: "Biblioteca JavaScript para criar interfaces baseadas em componentes."
         },
         {
             id: "next",
             name: "Next.js",
             icon: <SiNextdotjs />,
-            description: "Framework React para criação de aplicações web otimizadas e com renderização no lado servidor."
+            description: "Framework React para aplicações web com renderização no servidor e otimização automática."
         },
         {
             id: "angular",
             name: "Angular",
             icon: <SiAngular />,
-            description: "Framework JavaScript para construção de interfaces de usuário dinâmicas."
+            description: "Framework TypeScript para desenvolver interfaces baseadas em componentes."
         },
         {
             id: "figma",
             name: "Figma",
             icon: <SiFigma />,
-            description: "Ferramenta de design colaborativo para prototipagem e criação de interfaces."
+            description: "Ferramenta de design colaborativo para criar e prototipar interfaces."
         },
         {
             id: "git",
             name: "Git",
             icon: <SiGit />,
-            description: "Sistema de controle de versão distribuído para rastrear mudanças no código e facilitar a colaboração."
+            description: "Sistema de controle de versão para rastrear mudanças no código e facilitar a colaboração."
         },
         {
             id: "mysql",
             name: "MySQL",
             icon: <SiMysql />,
-            description: "Sistema de gerenciamento de banco de dados relacional utilizado para armazenar e gerenciar dados."
+            description: "Sistema de banco de dados relacional usado para armazenar e gerenciar dados."
         }
     ];
 

@@ -21,7 +21,7 @@ export const SocialNetworks = () => {
         },
         {
             name: "Portfólio",
-            link: "https://josieljrr.github.io/portfolio/",
+            link: "https://josieljrr.github.io/portfolio-react/",
             icon: <FaFolderOpen />
         },
     ];
