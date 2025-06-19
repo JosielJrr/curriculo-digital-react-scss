@@ -22,6 +22,7 @@ Este é um currículo digital interativo que apresenta informações profissiona
 
    ```bash
    git clone https://github.com/JosielJrr/curriculo-digital-react-scss.git
+   cd curriculo-digital-react-scss
    ```
 
 2. Instale as dependências:
