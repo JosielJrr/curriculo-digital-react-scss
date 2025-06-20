@@ -4,11 +4,22 @@
     list-style: none;
     padding: 0;
     margin: 0;
-}
+    width: 95%;
+    padding-left: 1rem;
 
-.certificate-list li {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
+    li {
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    @media (min-width: 1025px) {
+        width: auto;
+        padding-left: 0;
+
+        li {
+            font-size: 1.1rem;
+        }
+    }
 }
 
 .credential {
@@ -17,6 +28,5 @@
 
     &:hover {
         color: #3b6b7e;
-        
     }
 }

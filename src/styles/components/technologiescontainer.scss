@@ -1,103 +1,96 @@
 @use "../variables";
 @use "../mixins";
 
+$tech-colors: (
+    html: #e34f26,
+    css: #1572b6,
+    js: #f7df1e,
+    ts: #3178c6,
+    react: #61dafb,
+    next: #000000,
+    angular: #dd0031,
+    sass: #c69,
+    tailwind: #38bdf8,
+    bootstrap: #563d7c,
+    figma: #f24e1e,
+    git: #f05032,
+    mysql: #00758f
+);
+
 .technologies-container {
     margin-bottom: 1rem;
 
     .technologies-grid {
         display: flex;
         flex-wrap: wrap;
-        gap: 1.5rem;
+        justify-content: center;
+        gap: 1rem;
+
+        @media (min-width: 1026px) {
+            justify-content: flex-start;
+            gap: 1.5rem;
+        }
     }
 
     .technology-card {
         @include mixins.center;
+        flex-direction: column-reverse;
         gap: 1rem;
         padding: 1rem;
         border: 1px solid #333;
         width: 45%;
         border-radius: variables.$card-border-radius;
+
+        @media (min-width: 1367px) {
+            flex-direction: row;
+        }
     }
 
     h3 {
         color: variables.$text-color;
-        margin-bottom: 1rem;
+        margin-bottom: 0;
+        font-size: 1rem;
+
+        @media (min-width: 1367px) {
+            margin-bottom: 1rem;
+            font-size: unset;
+        }
+    }
+
+    p {
+        display: none;
+
+        @media (min-width: 1367px) {
+            display: block;
+        }
     }
 
     svg {
-        font-size: 6rem;
-    }
+        font-size: 3rem;
 
-    #html {
-        svg {
-            color: #e34f26;
+        @media (min-width: 1367px) {
+            font-size: 6rem;
         }
     }
 
-    #css {
-        svg {
-            color: #1572b6;
+    // Cores por tecnologia
+    @each $tech, $color in $tech-colors {
+        ##{$tech} {
+            svg {
+                color: $color;
+            }
         }
     }
 
-    #js {
-        svg {
-            color: #f7df1e;
-        }
-    }
-
-    #ts {
-        svg {
-            color: #3178c6;
-        }
-    }
-
-    #react {
-        svg {
-            color: #61dafb;
-        }
-    }
-    #next {
-        svg {
-            color: #000000;
-        }
-    }
-    #angular {
-        svg {
-            color: #dd0031;
-        }
-    }
-    #sass {
-        svg {
-            color: #c69;
-        }
-    }
-    #tailwind {
-        svg {
-            color: #38bdf8;
-        }
-    }
-    #bootstrap {
-        svg {
-            color: #563d7c;
-        }
-    }
-    #figma {
-        svg {
-            color: #f24e1e;
-        }
-    }
-    #git {
-        svg {
-            color: #f05032;
-        }
-    }
-
+    // Estilo específico para o mysql (ajuste de tamanho e escala)
     #mysql {
         svg {
-            color: #00758F;
             transform: scale(1.1);
-            font-size: 7rem;
+            font-size: 3.5rem;
+
+            @media (min-width: 1367px) {
+                font-size: 7rem;
+            }
         }
     }
 }

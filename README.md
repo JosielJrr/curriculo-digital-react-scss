@@ -1,20 +1,21 @@
 # Currículo Digital
 
-Este é um currículo digital interativo que apresenta informações profissionais de forma moderna e intuitiva. O layout é composto por uma barra lateral com informações pessoais e uma área principal que contém seções sobre mim, tecnologias que utilizo e meus projetos.
+Este é um currículo digital que apresenta informações profissionais de forma moderna, responsiva e intuitiva. O layout é composto por uma barra lateral com informações pessoais e uma área principal com seções sobre mim, tecnologias que utilizo, certificações e projetos.
 
 ## Funcionalidades
 
-- **Barra lateral**: Contém a foto, cargo, redes sociais e informações de contato.
-- **Seção "Sobre"**: Uma breve descrição sobre minha formação e pretensões.
-- **Seção "Tecnologias"**: Exibe as tecnologias que utilizo, com descrições concisas de cada uma.
-- **Seção "Certificações"**: Apresenta as certificações que adquiri ao longo da minha jornada, com links para visualização de cada uma.
-- **Seção "Projetos"**: Convido a acessar meus repositórios e conferir meus projetos no GitHub.
+- **Barra lateral**: Contém foto, cargo, redes sociais e informações de contato.
+- **Seção "Sobre"**: Breve descrição sobre minha formação e objetivos.
+- **Seção "Tecnologias"**: Exibe as tecnologias que utilizo, com ícones e descrições curtas.
+- **Seção "Certificações"**: Lista certificações conquistadas, com links diretos para validação.
+- **Seção "Projetos"**: Apresenta um link para meu GitHub com repositórios públicos.
 
 ## Tecnologias Utilizadas
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário interativas.
-- **Vite**: Ferramenta de build rápida e moderna para aplicações web, proporcionando tempos de carregamento e compilação otimizados.
-- **SCSS**: Pré-processador CSS que permite o uso de variáveis, aninhamento e outras funcionalidades avançadas de estilização.
+- **React**: Biblioteca JavaScript para criação de interfaces de usuário.
+- **Vite**: Ferramenta de build rápida para aplicações web.
+- **SCSS (Sass)**: Pré-processador CSS com suporte a variáveis, mixins e aninhamento.
+- **React Icons**: Conjunto de ícones populares prontos para uso com React.
 
 ## Como Executar o Projeto
 
@@ -39,4 +40,6 @@ Este é um currículo digital interativo que apresenta informações profissiona
 
 4. Acesse o projeto no seu navegador.
 
-> **Nota:** Este projeto foi desenvolvido com base no conteúdo do canal [Matheus Battisti - Hora de Codar](https://www.youtube.com/watch?v=5h4vMtBlQQU). O principal objetivo foi estudar e aplicar os conceitos do **SCSS/SASS** no desenvolvimento de interfaces modernas.
+> Este projeto foi desenvolvido com base no conteúdo do canal [Matheus Battisti - Hora de Codar](https://www.youtube.com/watch?v=5h4vMtBlQQU), com o objetivo de estudar e aplicar os conceitos de **SCSS/SASS** no desenvolvimento de interfaces modernas.
+
+> O código foi posteriormente refatorado para adotar a abordagem **mobile-first**, garantindo melhor organização e responsividade em diferentes tamanhos de tela.

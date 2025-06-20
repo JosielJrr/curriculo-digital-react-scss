@@ -9,7 +9,7 @@
     background-color: variables.$bg-color;
     border-radius: variables.$container-border-radius;
     text-align: center;
-    padding: 3rem 0;
+    padding: 2rem 0; // valor base para mobile
 
     img {
         max-width: 70%;
@@ -25,5 +25,15 @@
 
     .btn {
         @include mixins.btn;
+    }
+
+    // Tablet (810px até 1025px)
+    @media (min-width: 810px) and (max-width: 1025px) {
+        padding: 8rem 0;
+    }
+
+    // Desktop (acima de 1025px)
+    @media (min-width: 1026px) {
+        padding: 3rem 0;
     }
 }

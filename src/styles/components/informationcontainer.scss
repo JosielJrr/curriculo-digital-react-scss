@@ -29,6 +29,11 @@
         p {
             color: variables.$text-color;
             font-weight: bold;
+            font-size: 0.8rem;
+
+            @media (min-width: 1026px) {
+                font-size: 1rem;
+            }
         }
 
         svg {
