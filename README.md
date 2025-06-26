@@ -1,8 +1,8 @@
-# Currículo Digital
+# 📄 Currículo Digital
 
-Este é um currículo digital que apresenta informações profissionais de forma moderna, responsiva e intuitiva. O layout é composto por uma barra lateral com informações pessoais e uma área principal com seções sobre mim, tecnologias que utilizo, certificações e projetos.
+Aplicação que apresenta informações profissionais de forma moderna, responsiva e intuitiva. O layout é composto por uma barra lateral com informações pessoais e uma área principal com seções sobre mim, tecnologias que utilizo, certificações e projetos.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
 - **Barra lateral**: Contém foto, cargo, redes sociais e informações de contato.
 - **Seção "Sobre"**: Breve descrição sobre minha formação e objetivos.
@@ -10,14 +10,14 @@ Este é um currículo digital que apresenta informações profissionais de forma
 - **Seção "Certificações"**: Lista certificações conquistadas, com links diretos para validação.
 - **Seção "Projetos"**: Apresenta um link para meu GitHub com repositórios públicos.
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para criação de interfaces de usuário.
 - **Vite**: Ferramenta de build rápida para aplicações web.
 - **SCSS (Sass)**: Pré-processador CSS com suporte a variáveis, mixins e aninhamento.
 - **React Icons**: Conjunto de ícones populares prontos para uso com React.
 
-## Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
 1. Clone este repositório:
 
@@ -40,6 +40,4 @@ Este é um currículo digital que apresenta informações profissionais de forma
 
 4. Acesse o projeto no seu navegador.
 
-> Este projeto foi desenvolvido com base no conteúdo do canal [Matheus Battisti - Hora de Codar](https://www.youtube.com/watch?v=5h4vMtBlQQU), com o objetivo de estudar e aplicar os conceitos de **SCSS/SASS** no desenvolvimento de interfaces modernas.
-
-> O código foi posteriormente refatorado para adotar a abordagem **mobile-first**, garantindo melhor organização e responsividade em diferentes tamanhos de tela.
+> Projeto baseado no conteúdo do canal [Matheus Battisti - Hora de Codar](https://www.youtube.com/watch?v=5h4vMtBlQQU), focado no estudo prático de **SCSS/SASS** para interfaces modernas.
